@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
         {/* Column 1: Company Info */}
         <div>
-          <h2 className="text-2xl font-bold mb-4">Value Impact Business Services ltd</h2>
+          <h2 className="text-2xl font-bold mb-4">Value Impact Business Services Limited</h2>
           <p className="text-gray-300 text-sm leading-relaxed">
             Delivering reliable, efficient, and sustainable power solutions
             to communities and industries across the nation.
@@ -39,11 +39,25 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4 text-secondary">Contact Us</h3>
           <ul className="space-y-2 text-gray-300 text-sm">
             <li>📍 88 Bayo Oyewole Street, Ago Palace Way, Lagos, Nigeria</li>
-            <li>📞 +234 810 088 5093</li>
+            <li>📞  
+              <strong>Phone:</strong>{" "}
+              <a
+                href="https://wa.link/5fnwcx"
+                className="text-red-600 hover:underline"
+              >
+                WhatsApp
+              </a>
+            </li>
+            <li>
+              <strong>Phone call only:</strong>{" "}
+                 08023535863, 08053736463
+            </li>
+            <li>
+            </li>
             <li>📧 info@powerplantco.com</li>
           </ul>
           <div className="flex gap-4 mt-4">
-            <a href="https://wa.link/p1xzk3" className="hover:text-secondary transition">🌐Contact Developer</a>
+            <a href="https://wa.link/e4b92o" className="hover:text-secondary transition">🌐Contact Developer</a>
             
           </div>
         </div>

@@ -37,7 +37,17 @@ export default function Contact() {
               <strong>Address:</strong> 88, Bayo Oyewole Street, Ago Palace Way, Lagos
             </li>
             <li>
-              <strong>Phone:</strong> +234 810 088 5093
+              <strong>Phone:</strong>{" "}
+              <a
+                href="https://wa.link/5fnwcx"
+                className="text-red-600 hover:underline"
+              >
+                WhatsApp
+              </a>
+            </li>
+            <li>
+              <strong>Phone call only:</strong>{" "}
+                 08023535863, 08053736463
             </li>
             <li>
               <strong>Email:</strong>{" "}
@@ -45,7 +55,7 @@ export default function Contact() {
                 href="mailto:info@vibuspower.com"
                 className="text-red-600 hover:underline"
               >
-                info@vibuspower.com
+                info@vibus.com
               </a>
             </li>
           </ul>

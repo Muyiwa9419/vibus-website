@@ -71,7 +71,7 @@ export default function AboutPage() {
                 service.
             </p>
             <h2 className="text-3xl font-bold text-blue-900 mb-4">
-              Our Philosophyy
+              Our Philosophy
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               At Value Impact Business Services Limited, our guiding principle is simple:
@@ -80,13 +80,15 @@ export default function AboutPage() {
                 reliable engineering solutions that exceed expectations.</p>
              </div>
 
-          <div className="order-1 md:order-2">
-            <img
-              src="/team.jpg"
-              alt="Our Team"
-              className="rounded-xl shadow-lg w-full h-[400px] object-cover"
-            />
-          </div>
+                <div className="order-1 md:order-2">
+                <img
+                  src="/team.jpeg"
+                  alt="Our Team"
+                  className="rounded-xl shadow-lg w-full h-[500px] object-cover"
+                  style={{ objectPosition: "center 20%" }}
+                />
+              </div>
+
         </div>
       </div>
 
@@ -102,10 +104,10 @@ export default function AboutPage() {
               title: "Our Mission",
               text: (
                 <ul className="text-gray-700 space-y-2 text-left md:text-center">
-                  <li>• To consistently deliver high-quality engineering,electrical,and technical services that meet
+                  <li>• To consistently deliver high-quality engineering, electrical, and technical services that meet
                     international standards.</li>
-                  <li>• To empower clients with reliable solutions that add value,ensure safety,andimprove efficiency</li>
-                  <li>• Tobuild long term relationships through professionalism,innovation,and customer satisfaction</li>
+                  <li>• To empower clients with reliable solutions that add value, ensure safety, and improve efficiency</li>
+                  <li>• To build long term relationships through professionalism, innovation and customer satisfaction</li>
                 </ul>
               ),
             },
@@ -113,11 +115,11 @@ export default function AboutPage() {
               title: "Our Core Values",
               text: (
                 <ul className="text-gray-700 space-y-2 text-left md:text-center">
-                  <li>• Integrity - We operate with honesty,transparency and accountability</li>
+                  <li>• Integrity - We operate with honesty, transparency and accountability</li>
                   <li>• Excellence - We strive for the highest standards in every project</li>
                   <li>• Innovation - We embrace new technologies and creative approaches to problem-solving</li>
-                  <li>• CustomerFocus - Our clients'satisfactionis our top priority</li>
-                  <li>• Safety-Weprioritize safe practices in all our operations</li>
+                  <li>• Customer Focus - Our clients' satisfaction is our top priority</li>
+                  <li>• Safety - We prioritize safe practices in all our operations</li>
                   <li>• Impact - We aim to make lasting contributions to industries</li>
                 </ul>
               ),
@@ -147,18 +149,18 @@ export default function AboutPage() {
             {[
               {
                 name: "Engr. O. O Oloba",
-                role: "Chief Executive Officer",
-                img: "/team.jpg",
+                role: "Chairman",
+                img: "/ceo.jpeg",
               },
               {
-                name: "Dr. Linda Nwosu",
-                role: "Chief Technical Officer",
-                img: "/team.jpg",
+                name: "Mrs. Oladunjoye I. A",
+                role: "Director",
+                img: "/director.jpeg",
               },
               {
-                name: "Mr. Hassan Umar",
-                role: "Head of Operations",
-                img: "/team.jpg",
+                name: "Engr. Oladunjoye O. A",
+                role: "Managing Director",
+                img: "/md.jpeg",
               },
             ].map((leader, i) => (
               <div key={i} className="bg-white p-6 rounded-xl shadow-md">

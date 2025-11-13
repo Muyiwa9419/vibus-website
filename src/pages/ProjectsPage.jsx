@@ -20,7 +20,7 @@ export default function ProjectsPage() {
           Powering Change Through Innovation
         </h2>
         <p className="text-gray-700 max-w-3xl mx-auto mb-12">
-          From solar farms to industrial power solutions, VIBUS has successfully
+          From power farms to industrial power solutions, VIBUS has successfully
           executed energy projects that drive progress and sustainability.
           Explore some of our landmark projects across Nigeria and Africa.
         </p>
@@ -31,12 +31,12 @@ export default function ProjectsPage() {
         {[
           {
             title: "Lagos Airport Hotel ltd – Ikeja, Lagos",
-            desc: "Electrical consultantn for the hotel that undertakes the repairs, maintenance, and installation support services of their sundry electrical power equipments.",
+            desc: "Electrical consultant for the hotel that undertakes the repairs, maintenance, and installation support services of their sundry electrical power equipments.",
             img: "/projectImg.jpg",
           },
           {
             title: "Delacrox Event Centres and Hotels – Ajegunle, Lagos",
-            desc: "Electrical consultantn for the above named organisation which undertakes the repairs, maintenance, and installation support services of their sundry electrical services..",
+            desc: "Electrical consultant for the above named organisation which undertakes the repairs, maintenance, and installation support services of their sundry electrical services..",
             img: "/project2.png",
           },
           {
@@ -50,7 +50,7 @@ export default function ProjectsPage() {
             img: "/project4.jpg",
           },
           {
-            title: "FIBURG Nigeria Ltd – Ago Okota, Lagos",
+            title: "FINBURG Nigeria Ltd – Ago Okota, Lagos",
             desc: "Carried out the electrical installation project of the above named factory and office block, Replaced burnt 200A Gear Switch with 400A MCCB Breaker/other electrical support services.",
             img: "/project5.jpg",
           },
