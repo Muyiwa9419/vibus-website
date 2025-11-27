@@ -42,7 +42,7 @@ export default function Footer() {
             <li>📞  
               <strong>Phone:</strong>{" "}
               <a
-                href="https://wa.link/5fnwcx"
+                href="https://wa.link/th6npf"
                 className="text-red-600 hover:underline"
               >
                 WhatsApp
@@ -54,7 +54,7 @@ export default function Footer() {
             </li>
             <li>
             </li>
-            <li>📧 info@powerplantco.com</li>
+            <li>📧 info@vibus.com</li>
           </ul>
           <div className="flex gap-4 mt-4">
             <a href="https://wa.link/e4b92o" className="hover:text-secondary transition">🌐Contact Developer</a>
