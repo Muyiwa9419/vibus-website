@@ -54,7 +54,10 @@ export default function Footer() {
             </li>
             <li>
             </li>
-            <li>📧 info@valueimpactservices.com</li>
+            <li>
+              📧 <a href="mailto:info@valueimpactservices.com">info@valueimpactservices.com</a>
+            </li>
+
           </ul>
           <div className="flex gap-4 mt-4">
             <a href="https://wa.link/e4b92o" className="hover:text-secondary transition">🌐Contact Developer</a>
