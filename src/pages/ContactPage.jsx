@@ -51,12 +51,10 @@ export default function Contact() {
             </li>
             <li>
               <strong>Email:</strong>{" "}
-              <a
-                href="mailto:info@vibuspower.com"
-                className="text-red-600 hover:underline"
-              >
-                info@vibus.com
-              </a>
+              <li>
+                📧 <a href="mailto:info@valueimpactservices.com">info@valueimpactservices.com</a>
+              </li>
+
             </li>
           </ul>
 
