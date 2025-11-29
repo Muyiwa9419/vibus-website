@@ -52,7 +52,7 @@ export default function Contact() {
             <li>
               <strong>Email:</strong>{" "}
               <li>
-                📧 <a href="mailto:info@valueimpactservices.com">info@valueimpactservices.com</a>
+                📧 <a href="mailto:info@valueimpactservices.com" className="text-red-600 hover:underline">info@valueimpactservices.com</a>
               </li>
 
             </li>
