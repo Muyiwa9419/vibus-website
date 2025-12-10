@@ -59,6 +59,22 @@ export default function ProjectsPage() {
             desc: "Constructed 3200A motorized manual change over panel with outgoing feeder, 2500A and 1600A sub distribution power panels and also carried out installation.",
             img: "/project6.jpg",
           },
+
+          {
+            title: "Realty Point Limited – Maryland, Lagos",
+            desc: "We are the consultant to the above organization that undertakes their electrical repairs, maintenance and installation support services. Office/School Power Distribution Networking. National Grid(NEPA) Incoming Feeder, Generator Distribution Feeder, Inverter Distribution Feeder",
+            img: "/project5.png",
+          },
+          {
+            title: "Phenom Construction Ltd – Lekki, Lagos",
+            desc: "Carried out electrical installation of RCCG(City of Glory Parish) at along Ogombo Road, Ajah, Lekki, Lagos. Carried out electrical wiring installation of the renovation of a storey residential building at Soluyi Gbagada, Lagos.",
+            img: "/project6a.png",
+          },
+          {
+            title: "D-IVY Sixth Form College and Eye Clinic – Ikeja, Lagos ",
+            desc: "We are the consultant to the above organisation that undertakes their electrical repairs, maintenance and installation support services of their office block/student hostels. The Office Power Distribution Networking. 200KVA 11/0.415KV Transformer Power Distribution Feeder, 100KVA 3 phase Generator Distribution Feeder, 10KVA Inverter Distribution Feeder",
+            img: "/project7.png",
+          },
         ].map((project, index) => (
           <div
             key={index}
